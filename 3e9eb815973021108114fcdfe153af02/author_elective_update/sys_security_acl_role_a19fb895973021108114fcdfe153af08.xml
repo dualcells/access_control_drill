@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 20:42:41</sys_created_on>
+        <sys_id>a19fb895973021108114fcdfe153af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_485501_access_co_demo_table_1.user</sys_name>
+        <sys_package display_value="Access Control Drill" source="x_485501_access_co">3e9eb815973021108114fcdfe153af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Control Drill">3e9eb815973021108114fcdfe153af02</sys_scope>
+        <sys_security_acl display_value="x_485501_access_co_demo_table_1">219fb895973021108114fcdfe153af06</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a19fb895973021108114fcdfe153af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 20:42:41</sys_updated_on>
+        <sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Access Control Drill">3e9eb815973021108114fcdfe153af02</application>
+        <file_path/>
+        <instance_id>b4dfc589dbe73fc08aea21c405961931</instance_id>
+        <instance_name>dev92471</instance_name>
+        <name>sys_security_acl_role_a19fb895973021108114fcdfe153af08</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-02 20:42:41</sys_created_on><sys_id>a19fb895973021108114fcdfe153af08</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_485501_access_co_demo_table_1.user</sys_name><sys_package display_value="Access Control Drill" source="x_485501_access_co">3e9eb815973021108114fcdfe153af02</sys_package><sys_policy/><sys_scope display_value="Access Control Drill">3e9eb815973021108114fcdfe153af02</sys_scope><sys_security_acl display_value="x_485501_access_co_demo_table_1">219fb895973021108114fcdfe153af06</sys_security_acl><sys_update_name>sys_security_acl_role_a19fb895973021108114fcdfe153af08</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-02 20:42:41</sys_updated_on><sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>171457531</payload_hash>
+        <record_name>x_485501_access_co_demo_table_1.user</record_name>
+        <reverted_from/>
+        <source>7a9eb815973021108114fcdfe153af04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 20:42:41</sys_created_on>
+        <sys_id>259fb895973021108114fcdfe153af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18613de012e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 20:42:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6d9fb895713021101b44d48386f09509</update_guid>
+        <update_guid_history>6d9fb895713021101b44d48386f09509:171457531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_485501_access_co_demo_table_1.user">1f4e761997f421108114fcdfe153afa9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-03 05:56:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>28f140b3a2424d8a8ca03b2a797f58b1</sys_id>
+        <sys_metadata>a19fb895973021108114fcdfe153af08</sys_metadata>
+        <sys_name>x_485501_access_co_demo_table_1.user</sys_name>
+        <sys_package display_value="Access Control Drill" source="x_485501_access_co">3e9eb815973021108114fcdfe153af02</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Access Control Drill">3e9eb815973021108114fcdfe153af02</sys_scope>
+        <sys_scope_delete display_value="">9cdd6f56a8cf4056916adb6a28086051</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a19fb895973021108114fcdfe153af08</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a19fb895973021108114fcdfe153af08">259fb895973021108114fcdfe153af0a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

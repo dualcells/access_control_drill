@@ -4,7 +4,7 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description/>
+        <description>Role(s): 'user'</description>
         <name>x_485501_access_co_demo_table_1</name>
         <operation display_value="read">read</operation>
         <script/>

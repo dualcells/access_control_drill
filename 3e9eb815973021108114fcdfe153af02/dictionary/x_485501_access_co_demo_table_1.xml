@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4d9f7895973021108114fcdfe153af21" label="Demo Table 1" max_length="40" name="x_485501_access_co_demo_table_1" type="collection">
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="roles=user^ORroles=itil^EQ" reference_qual_condition="roles=user^ORroles=itil^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="typeLIKEa0528f1d97f421108114fcdfe153af4e^EQ" reference_qual_condition="typeLIKEa0528f1d97f421108114fcdfe153af4e^EQ" type="reference"/>
+        <element label="Comment" max_length="40" name="comment" type="string"/>
         <element label="Light switch" max_length="40" name="light_switch" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
     </element>
 </database>
